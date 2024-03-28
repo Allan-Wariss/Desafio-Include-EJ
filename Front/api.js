@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const h2Element = document.createElement('h2');
                 h2Element.textContent = post.title;
                 h2Element.classList.add('items-news');
-                h2Element.dataset.postId = post.id; // Definindo o data-post-id com o ID da postagem
+                h2Element.dataset.postId = post.id; 
                 h2Element.addEventListener('click', function () {
                     displayPostDetails(post);
                 });
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const descriptionPost = document.querySelector('.descriptionPost');
             descriptionPost.querySelector('.titlePost').textContent = post.title;
             descriptionPost.querySelector('.contentPost').textContent = post.descricao;
-            descriptionPost.querySelector('.idPost').textContent = post.id; // Correção aqui
+            descriptionPost.querySelector('.idPost').textContent = post.id; 
             const postImage = descriptionPost.querySelector('.postImage');
             if (post.image != null) {
                 postImage.src = post.image;
@@ -140,7 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(response => {
                 if (response.ok) {
                     console.log('Postagem atualizada com sucesso!');
-                    // Limpa os campos do formulário de edição
                     document.querySelector('#title-modal--edit').value = '';
                     document.querySelector('#publication-modal--edit').value = '';
                     document.querySelector('#image-modal--edit').value = '';
