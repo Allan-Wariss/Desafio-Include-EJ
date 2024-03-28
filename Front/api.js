@@ -1,7 +1,7 @@
 
 // Ultimas noticias
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('http://localhost:8080/postagem')
+    fetch('https://back-ps-include-production.up.railway.app/postagem')
         .then(response => response.json())
         .then(data => {
             const postList = document.querySelector('.postsrecents');
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Postagem principal
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('http://localhost:8080/postagem')
+    fetch('https://back-ps-include-production.up.railway.app/postagem')
         .then(response => response.json())
         .then(data => {
             // Ordena os dados pelo ID em ordem decrescente
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         // Envie uma requisição POST para a API
-        fetch('http://localhost:8080/postagem', {
+        fetch('https://back-ps-include-production.up.railway.app/postagem', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
             };
 
             // Envie uma requisição PATCH para a API
-            fetch(`http://localhost:8080/postagem/update/${postId}`, {
+            fetch(`https://back-ps-include-production.up.railway.app/postagem/update/${postId}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json'
