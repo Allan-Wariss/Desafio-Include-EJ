@@ -1,7 +1,7 @@
-<h1>Desafio Include</h1><br>
-<h2>Tecnologias usadas</h2><br>
+<h1>Desafio Include</h1>
+<h2>Tecnologias usadas</h2>
 <strong>BackEnd</strong>: Feito em java usando o framework Springboot.<br>
-<strong>Banco de dados</strong: Postgres.<br>
+<strong>Banco de dados</strong>: Postgres.<br>
 <strong>FrontEnd</strong: Projeto em vanilla disponiblizado pela Include, porém eu fiz algumas alterações e usei BootStrap para Pop-Up de edição.<br>
 
 
