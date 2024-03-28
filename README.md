@@ -1,1 +1,10 @@
-<h1 style="color: blue;">Seu Título Aqui</h1>
+<h1>Desafio Include</h1>
+<h2>Tecnologias usadas</h2>
+<strong>BackEnd</strong>: Feito em java usando o framework Springboot.<br>
+<strong>Banco de dados</strong: Postgres.<br>
+<strong>FrontEnd</strong: Projeto em vanilla disponiblizado pela Include, porém eu fiz algumas alterações e usei BootStrap para Pop-Up de edição.
+
+
+<h2>Banco de dados e BackEnd estão rodando na nuvem</h2>
+<h2>Testar o front: </h2>
+Link em breve
