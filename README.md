@@ -7,7 +7,7 @@
 <h1>ATENÇÃO!</h1>
 Ao testar o upload da imagem ele apenas funciona se a imagem existir na internet,<br>
 então ao upar na página você deve fornecer a URL da imagem.<br>
-<strong>Ex:</strong> data:image/jpeg;base64,/00/000000/ <br>(Uma url de imagem da internet qualquer)<br>.<br>
+<strong>Ex:</strong> https://j.gifs.com/xk25X9.gif <br>(Uma url de imagem da internet qualquer)<br>.<br>
 
 <strong>*Banco de dados e BackEnd estão rodando na nuvem*</strong><br>
 <h1>Teste o projeto:</h1>
