@@ -9,6 +9,6 @@ Ao testar o upload da imagem ele apenas funciona se a imagem existir na internet
 então ao upar na página você deve fornecer a URL da imagem.<br>
 <strong>Ex:</strong> https://j.gifs.com/xk25X9.gif <br>(Uma url de imagem da internet qualquer)<br>.<br>
 
-<strong>*Banco de dados e BackEnd estão rodando na nuvem e o Front hospedado no GithubPages*</strong><br>
+<strong>*Banco de dados e BackEnd estão hospedados no RailWay e o Front hospedado no GithubPages*</strong><br>
 <h1>Teste o projeto:</h1>
 <h2><a href="https://allan-wariss.github.io/Desafio-Include-EJ/">Clique aqui</a></h2>
