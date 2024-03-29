@@ -4,7 +4,7 @@
 <strong>Banco de dados</strong>: Postgres.<br>
 <strong>FrontEnd</strong>: Projeto em vanilla disponiblizado pela Include, porém eu fiz algumas alterações e usei BootStrap para Pop-Up de edição.<br>
 
-<h1>ATENÇÃO!</h1>
+<h1>⚠️ATENÇÃO!</h1>
 Ao testar o upload da imagem ele apenas funciona se a imagem existir na internet,<br>
 então ao upar na página você deve fornecer a URL da imagem.<br>
 <strong>Ex:</strong> https://j.gifs.com/xk25X9.gif <br>(Uma url de imagem da internet qualquer)<br>.<br>
