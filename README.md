@@ -1,4 +1,4 @@
-<h1>Desafio Include<></h1>
+<h1>Desafio Include<> 🦆</h1>
 <h2>Tecnologias usadas</h2>
 <strong>BackEnd</strong>: Feito em java usando o framework Springboot.<br>
 <strong>Banco de dados</strong>: Postgres.<br>
